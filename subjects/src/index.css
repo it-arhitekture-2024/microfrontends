@@ -1,0 +1,141 @@
+body {
+  margin: 5% 30%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* General styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+/* Styles for add-subject section */
+.add-subject {
+  margin-bottom: 20px;
+}
+
+.add-subject .input-group {
+  margin-bottom: 10px;
+}
+
+.add-subject label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-subject input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-subject button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-subject button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for edit-subject section */
+.edit-subject {
+  margin-bottom: 20px;
+}
+
+.edit-subject .input-group {
+  margin-bottom: 10px;
+}
+
+.edit-subject label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-subject input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edit-subject button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-subject button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for subject-list section */
+.subject-list ul {
+  padding-left: 0px;
+}
+
+.subject-list button {
+  padding: 4px 8px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subject-list button:hover {
+  background-color: #d32f2f;
+}
+
+.subject-list {
+  margin-top: 20px;
+}
+
+.subject-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.subject-item:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-button {
+  background-color: #ff6961;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #e63946;
+}

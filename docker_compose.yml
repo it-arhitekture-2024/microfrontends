@@ -1,0 +1,36 @@
+version: '3'
+services:
+  navigation:
+    image: ita2024/navigation
+    build:
+      context: ./navigation
+    ports:
+      - "3009:3009"
+  
+  subjects:
+    image: ita2024/subjects
+    build:
+      context: ./subjects
+    ports:
+      - "3005:3005"
+
+  users:
+    image: ita2024/users
+    build:
+      context: ./path/to/users
+    ports:
+      - "3006:3006"
+
+  grades:
+    image: ita2024/grades
+    build:
+      context: ./grades
+    ports:
+      - "3007:3007"
+
+  root-config:
+    image: ita2024/root-config
+    build:
+      context: ./root-config
+    ports:
+      - "9200:9200"

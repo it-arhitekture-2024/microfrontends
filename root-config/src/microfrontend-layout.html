@@ -1,0 +1,22 @@
+<single-spa-router>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/grades">Grades</a>
+    <a href="/subjects">Subjects</a>
+    <a href="/users">Users</a>
+  </nav>
+  <main>
+    <route path="/">
+      <application name="@ITA2024/navigation"></application>
+    </route>
+    <route path="grades">
+      <application name="@ITA2024/grades"></application>
+    </route>
+    <route path="subjects">
+      <application name="@ITA2024/subjects"></application>
+    </route>
+    <route path="users">
+      <application name="@ITA2024/users"></application>
+    </route>
+  </main>
+</single-spa-router>
