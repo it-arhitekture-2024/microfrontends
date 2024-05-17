@@ -27,32 +27,32 @@ jobs:
       with:
         context: ./navigation
         push: true
-        tags: ita2024/navigation:latest
+        tags: 89acat/navigation:latest
 
     - name: Build and push subjects image
       uses: docker/build-push-action@v2
       with:
         context: ./subjects
         push: true
-        tags: ita2024/subjects:latest
+        tags: 89acat/subjects:latest
 
     - name: Build and push users image
       uses: docker/build-push-action@v2
       with:
         context: ./users
         push: true
-        tags: ita2024/users:latest
+        tags: 89acat/users:latest
 
     - name: Build and push grades image
       uses: docker/build-push-action@v2
       with:
         context: ./grades
         push: true
-        tags: ita2024/grades:latest
+        tags: 89acat/grades:latest
 
     - name: Build and push root-config image
       uses: docker/build-push-action@v2
       with:
         context: ./root-config
         push: true
-        tags: ita2024/root-config:latest
+        tags: 89acat/root-config:latest
