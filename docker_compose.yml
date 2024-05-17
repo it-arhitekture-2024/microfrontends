@@ -17,7 +17,7 @@ services:
   users:
     image: ita2024/users
     build:
-      context: ./path/to/users
+      context: ./users
     ports:
       - "3006:3006"
 
